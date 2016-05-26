@@ -1,0 +1,105 @@
+.toggleMenu {
+    display: none;
+    background:#ffad1b; margin:auto; width:20%; text-align:center; padding:5px; font-size:15px; font-family:Verdana, Geneva, sans-serif;
+    color: #fff;
+}
+.toggleMenu a{color:#FFF; text-decoration:none;}
+
+.menu {
+    list-style: none;
+    *zoom: 1;
+    background:#000; float:left;
+}
+.menu:before,
+.menu:after {
+    content: " "; 
+    display: table; 
+}
+.menu:after {
+    clear: both;
+}
+.menu ul {
+    list-style: none;
+    width: 200px;
+}
+.menu a {
+    color:#fff; text-decoration:none; font-family:Verdana, Geneva, sans-serif; font-size:15px; margin:0;
+}
+.menu li {
+    position: relative;
+}
+.menu li:hover  {color:#fff; text-decoration:none; background:#ffad1b;}
+
+.menu > li {
+    float: left;
+    border-top: 1px solid #000;
+}
+.menu > li > .parent {
+    background-image: url("../images/downarrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.menu > li > a {
+    display: block; padding:27px 20px;
+}
+.menu li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.menu > li.hover > ul {
+    left: 0;
+}
+.menu li li.hover > ul {
+    left: 100%;
+    top:0;
+}
+.menu li li a {
+    display: block;
+    background: #222;  padding:8px 20px;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #000;
+}
+.menu li li:hover a {background-color:#666;}
+.menu li li li a {
+    background:#333;
+    border-top: 1px solid #222;
+}
+.menu li li li li a {
+    background:#444;
+    border-top: 1px solid #333;
+}
+.menu li li li li li a {
+    background:#555;
+    border-top: 1px solid #444;
+}
+
+@media screen and (max-width: 800px) {
+	.toggleMenu{float:left; width:96%; padding:2%; color:#fff !important; font-weight:bold; text-transform:uppercase; text-align:left; text-decoration:none;}
+    .active {
+        display: block;
+    }
+	.menu {width:100%; float:left;}
+    .menu > li {
+        float: none; text-align:left;
+    }
+	.menu > li > a {
+    display: block;
+    padding: 10px 20px !important;
+}
+    .menu > li > .parent {
+        background-position: 95% 50%;
+    }
+    .menu li li .parent {
+        background-image: url("../images/downarrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .menu ul {
+        display: block;
+        width: 100%;
+    }
+    .menu > li.hover > ul , .menu li li.hover > ul {
+        position: static;
+    }}
+	

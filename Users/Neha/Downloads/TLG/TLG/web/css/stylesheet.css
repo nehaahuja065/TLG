@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#003D62; background-image:url(images/taxibg.jpg); background-repeat:no-repeat; background-attachment:fixed; background-size:cover; margin:0px; padding:0px;font-family: 'Open Sans';}
+*{padding:0px; margin:0px;}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+.headr{width:96%; float:left; padding:1% 2%; background-color:#002C46; margin-bottom:20px;  /*opacity: 0.4;  filter: alpha(opacity=40);*/}
+.headrleft{float:left;}
+.headrleft img{width:200px; float:left; }
+.headrright{float:right; color:#B9E4FF; padding-top:30px;}
+.headrright a{color:#B9E4FF; text-decoration:underline; font-weight:bold;}
+.headrright a:hover{color:#fff;}
+.headrright .logout{ color:#fff; padding:5px 10px; font-size:14px; font-weight:bold; text-decoration:none; margin-left:20px;  border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+    background: #0099F4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0099F4, #62C5FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0099F4, #62C5FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0099F4, #62C5FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0099F4, #62C5FF); /* Standard syntax */}
+	
+.container{width:100%; float:left;}
+
+.dashbordform{width:600px; margin:0 auto; max-width:100%;}
+.frm{width:96%; float:left; padding:2%; background-color:#F1F1F1; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.dfrm{width:100%; float:left; padding:10px 0px;}
+.dfrm label{width:20%; float:left;}
+
+.dashbordicons{width:600px; margin:0 auto; max-width:100%;}
+.dicon{width:48%; float:left; padding:2% 1%; text-align:center; background-color:#0099F4;}
+.dicon:nth-child(2),.dicon:nth-child(3){background-color:#62C5FF;}
+.dicon a{color:#fff; text-decoration:none; font-weight:bold; font-size:18px; text-transform:uppercase;}
+
+
+																																																																																																																					 input:focus, select:focus{border-color:white;background:white; box-shadow:0 0 18px #2793C7;}
+.dfrm input, .dfrm select{width:60%; float:right; padding:5px;}
+.logbutton{width:100%; padding:10px 0px; float:left; margin:2% 0%; border:2px solid #00588C; color:#fff; font-weight:bold; font-size:16px; cursor:pointer; text-transform:uppercase; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background: #0099F4; background: -webkit-linear-gradient(#0099F4, #00588C); background: -o-linear-gradient(#0099F4, #00588C); background: -moz-linear-gradient(#0099F4, #00588C);}
+
+
+.drivrpanl{width:600px; max-width:100%; margin:0 auto;}
+.drivr{width:100%; padding:15px 1%; margin-bottom:1px; float:left; background-color:#0099F4; color:#fff;}
+.drivr p{width:20%; float:left; font-weight:bold; font-size:16px;}
+.drivr:nth-child(odd){background-color:#62C5FF;}
+.drivr a{color:#D7F1FF; text-decoration:none;}
+
+@media only screen and (max-width:600px) {
+	.headrleft{float:left; width:100%;}
+
+.headrright{float:left; width:100%; padding:10px 0px; text-align:center;}
+
+	
+.dfrm label{width:98%; float:left;}																																																																																																																						 .dicon{width:98%;}
+.dfrm input, .dfrm select{width:96%; }	
+
+
+}

@@ -1,0 +1,209 @@
+body{background:#fbfbfb; padding:0; margin:0; width:100%;}
+a{color:#000;}
+a:hover{text-decoration:underline;}
+.clearfix{ clear:both;}
+ul, li, h1, h2, h3, img, p {
+border: 0 none;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+
+
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Conv_ARCTIC';
+	src: url('../fonts/ARCTIC.eot');
+	src: local('☺'), url('../fonts/ARCTIC.woff') format('woff'), url('../fonts/ARCTIC.ttf') format('truetype'), url('../fonts/ARCTIC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:35px;
+	text-align:left;
+	line-height:45px;
+	color:#F90;
+	font-weight:bold;
+}
+h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:32px;
+	text-align:left;
+	color:#F90;
+	line-height:40px;
+	font-weight:bold;
+}
+p{font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:normal;  margin:0; line-height:22px; text-align:justify;}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.gridContainer {
+	width: 100%;
+	padding-left:0%;
+	padding-right:0%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background:#FFF;
+	padding:0;
+	margin:0;
+}
+.center{width:1200px; max-width:96%; padding:0; margin:auto;}
+.social_top{float:left; padding:8px 0; margin:0;}
+.social_top ul{margin:0; padding:0; float:left;}
+.social_top ul li{margin:0 10px 0 0; padding:0; float:left;}
+.social_top ul li a:hover{padding:0; margin:0;}
+.top_contact{float:right; padding:8px 0; margin:0; color:#585858; font-family:Verdana, Geneva, sans-serif;}
+.top_contact ul{margin:0; padding:0; float:left;}
+.top_contact ul li{margin:0 15px 0 0; padding:0; float:left; font-size:12px;}
+.top_contact ul li a{text-decoration:none; color:#000;}
+.top_contact ul li a:hover{padding:0; margin:0; color:#000;}
+.logo{width:100%; padding:0; margin:auto; background:#000;}
+#logo{float:left; padding:2px 0;}
+.topmenu{float:right;}
+
+
+.premium{width:52%; text-align:left; padding:20px 15px 0 0; float:left; padding-bottom:0 !important;}
+.package{text-align:left; float:left; padding:20px 0 0 0; width:46%;}
+#flash_area{width:100%; width:auto; padding:15px 0 0 0; overflow: hidden;}
+
+#events{float:left; padding:0; margin:0; margin-top:15px; width:100%;}
+#events ul{margin:0px; padding:0;}
+#events ul li{padding:0 10px 5px 0; float:left; margin-bottom:4px; width:47%; margin-top:0; position:relative; overflow:hidden;}
+#events ul li img{height:269px;}
+#events ul li p{position:absolute; z-index:99; bottom:0; left:0; right:0; padding:2%; font-weight:bold; font-size:16px; background:rgba(255,255,255,0.6); color:#000; margin-bottom:4px; width:96%;}
+#events ul li p a{background-color:#000; color:#fff; font-size:12px; font-weight:normal; padding:4px 6px; width:110px; text-align:center; margin:10px 0px; display:none; }
+#events ul li:hover a{display:block; text-decoration:none;}
+.grow {
+    height:50px; /* Origional height */
+    margin: 5px 1% 5px 0; /* Just for presentation (Not required) */
+    float: left; /* Just for presentation (Not required) */
+    position: relative; /* Just for presentation (Not required) */
+    transition:height 0.5s; /* Animation time */
+    -webkit-transition:height 0.5s; /* For Safari */
+}
+#events ul li:hover .grow {
+    height:50%; /* This is the height on hover */
+}
+
+
+
+
+.testi{padding:20px 15px 0 0; float:left; width:45%; margin:0;}
+.testi p{background:url(../images/testi.png) no-repeat; padding:0 0 0 40px; width:63%; float:left; text-align:justify;}
+.testi span{float:right; width:25%; padding:0; margin:0;}
+
+.about{
+	float:left;
+
+
+	width:75%
+.%;
+	margin:0;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 0;
+	padding-left: 15px;
+}
+
+
+.opportunity{width:100%; background:#ffad1b; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; padding:30px 0; margin:20px 0 0 0;}
+.opportunity h1{font-size:22px; color:#000;  width:50%; text-align:center; float:left; padding:11px 15px;}
+.email{background:#fff none repeat scroll 0 0; border: medium none; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) inset; clear: none; color: #666; display: block; float: left; margin:0 0 0 0; padding:14px 10px; width:15%;}
+.more_button{background:#82d843; border:0px; box-shadow:0px; font-size:18px; padding:11px 15px; float:left; font-weight:bold; text-transform:uppercase; color:#FFF; text-align:center;}
+.bottom_1{width:100%; background:#222; padding:0 0 15px 0; margin:0; color:#fff;}
+.footer{float:left; width:22%; padding:20px 22px 0 0; margin:0 0 20px 0; height:100%;}
+.footer h1{font-size:16px; width:100%; color:#FFF; padding:0; font-family:Tahoma, Geneva, sans-serif;}
+.footer p{ width:94%; line-height:23px; padding:20px 0 0 0; text-align:justify; font-family:Tahoma, Geneva, sans-serif; font-size:13px;} 
+.footer span{float:left; margin:0; padding:20px 10px 0 0;}
+.footer ul{padding:0px 0px 0px 20px; margin:0; width:100%;}
+.footer ul li{list-style-type:square; padding:8px 5px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;}
+.footer ul li a{text-decoration:none; color:#FFF;}
+.footer ul li a:hover{text-decoration:underline; color:#cd1010;}
+.btmgallery{padding:0 !important; margin:0; width:100%; float:left;}
+.btmgallery ul{padding:0 !important; margin:0;}
+.btmgallery li{padding:0 !important; float:left; margin:0 2px 3px;}
+
+
+@media (max-width: 1024px) {
+.premium{width:50%; padding-bottom:0;}
+.package{padding:0; width:48%; padding:30px 0 0 0;}
+#events ul li{padding:0% 1%; width:48%;}
+#events ul li p{margin-bottom:0; }
+#events ul li img{height:219px;}
+#flash_area{padding:0;}
+.testi{padding:20px 15px 0 0;}
+.about{padding:20px 15px 0 15px; width:50%;}
+.opportunity h1{font-size:20px; color:#000;  width:50%; text-align:center; float:left; padding:12px 15px;}
+.footer{float:left; width:22%; padding:20px 28px 0 0; margin:0 0 20px 0; height:100%;}
+#events{margin-top:0; width:100%;}
+.footer span{padding:30px 4px 0 0;}
+}
+
+
+@media (max-width: 800px) {
+.topmenu{width:100%; float:left;}
+
+}
+
+
+@media (max-width: 768px) {
+#logo{ text-align:center; width:100%; padding:10px 0;}
+.premium{font-size:25px; padding:30px 10px 0 0;}
+.package{padding:0; width:47%; font-size:25px; padding:30px 0 0 0;}
+#events ul li img{height:166px;}
+.testi{ width:100%; padding:0; font-size:25px;}
+.about{padding:20px 0 0 0; width:100%; font-size:25px;}
+.testi p{margin:15px 0 0 0;}
+.about p{margin:15px 0 0 0;}
+.opportunity{padding:10px 0px;}
+.opportunity h1{text-align:left; color:#000;  width:96%; padding:0px 15px;}
+.email{margin:0 0 0 0; width:50%;}
+.more_button{width:170px; margin:0;}
+.footer{float:left; width:43%; padding:20px 40px 0 0; margin:0 0 20px 0; height:100%;}
+}
+
+@media (max-width: 600px) {
+.premium{font-size:25px; padding:10px 10px 0 0; width:100%; padding-bottom:0 !important;}
+.package{padding:20px 0 0 0; font-size:25px; width:100%;}
+
+.footer{width:98%; height:auto;  padding:0px 1%;}
+.footer ul li { padding: 5px 0px;}	
+.footer p{ padding:0px; }
+}
+
+@media (max-width:400px) {
+.email{margin:0 0 0 0; width:90%;}	
+.testi p {    margin: 15px 0px 0px;    width: 80%;}
+.testi span {    float: left;    width: 80%;    padding: 0% 10%; text-align:center;}
+}
+
+@media (max-width: 320px) {
+.social_top{padding:8px 90px; width:50%; margin:auto;}
+
+.testi{padding:20px 0 0 0;}
+.testi p{margin:15px 0 0 0; width:80%;}
+.testi span{width:100%; padding:0; margin:auto; text-align:center;}
+.about p{width:90%; padding:0 10px;}
+
+.footer ul{padding:20px 0 0 20px}
+.btmgallery li{margin:0 21px 10px 0;}
+.opportunity h1{font-size:20px; width:100%; text-align:center; padding:0 0 15px 0; margin:0;}
+.email{width:63%; margin:0 auto; float:none;}
+.more_button{width:60%; margin:0 auto; float:none; margin-top:15px;}
+.footer span{margin:0 auto; padding:20px 21px 0 0; text-align:center; width:13%;}
+
+
+
+}
